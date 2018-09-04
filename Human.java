@@ -9,7 +9,7 @@ public interface Human {								//Interface
 	void leg(double legNo);								//parameters are allowed in abstract method in an Interface
 
 	void hand(double handNo);
-
+//ne line add 
 	void tail();
 
 	static void nature() {								//Static and no-return method can be implemented in an Interface
