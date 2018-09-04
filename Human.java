@@ -24,6 +24,6 @@ public interface Human {								//Interface
 		int legNhand = legNo + handNo;
 		System.out.println(legNhand);
 		return legNhand;
-	}
+	}//added commit
 
 }
