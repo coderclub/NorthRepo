@@ -11,10 +11,10 @@ import java.math.*;
 import java.lang.*;
 public class Calculator {
     public static void main(String[] args) {
-        Scanner keyboard = new Scanner(System.in);
+        Scanner keyboard = new Scanner(System.in);   //Scanner class
         Scanner scan = new Scanner(System.in);
 
-        String Answer;
+        String Answer;         
         char firstchar;
         int NumofOp;
 
@@ -35,7 +35,7 @@ public class Calculator {
             NumofOp = keyboard.nextInt();
             int getnum = NumofOp;
 
-            switch (getnum) {
+            switch (getnum) {    //switch case statement to run a loop.
                 case (1):
 
                     Addnum(keyboard);
