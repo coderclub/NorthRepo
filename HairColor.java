@@ -12,8 +12,8 @@ public abstract class HairColor extends Classified {	//Inheritance in an abstrac
 	public void displayWing() {
 		getWing();                 //A getter from Classified.java
 	}
-	public void newhair(){
-		
+	public abstract String newhair(String newhair){
+
 	}
 }
 

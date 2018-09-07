@@ -18,7 +18,8 @@ public class ShamsTheHuman extends HairColor { // Hierarchy inheritance
 		ShamsJr.displaySP();
 		ShamsJr.HairColor();
 		ShamsJr.HairColor("Black");
-		ShamsJr.setSP("mouse");					//data hiding
+		ShamsJr.setSP("mouse");//data hiding
+		ShamsJr.
 		System.out.println("My Super Power is " + ShamsJr.getSP() +"  "+ ShamsJr.behaviour);
 		
 	}
@@ -29,5 +30,6 @@ public class ShamsTheHuman extends HairColor { // Hierarchy inheritance
 		System.out.println("hair color return " + color );
 		return color;
 	}
+
 
 }
