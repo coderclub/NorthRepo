@@ -14,7 +14,7 @@ public class Calculator {
         Scanner keyboard = new Scanner(System.in);   //Scanner class
         Scanner scan = new Scanner(System.in);
 
-        String Answer;         
+        String Answer;
         char firstchar;
         int NumofOp;
 
